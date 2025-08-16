@@ -50,8 +50,8 @@ workflows:
   # Allow manual triggers
   manual_trigger:
     jobs:
-      - nodeseek:
-          context: checkincontext
+ #     - nodeseek:
+ #         context: checkincontext
       - v2ex:
           context: checkincontext
 #      - onepoint3acres:
